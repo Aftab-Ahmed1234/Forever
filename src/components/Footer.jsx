@@ -27,15 +27,14 @@ const Footer = () => {
               
             </ul>
          </div>
-         <hr className="w-full border-gray-300" />
-
-<div className="max-w-7xl mx-auto px-4">
-    <p className="py-5 text-sm text-center">
-        Copyright 2026 © forever.com - All Rights Reserved.
-    </p>
-</div>
          
-     </div>
+         <div className='w-full ms-[40%]'>
+            <hr />
+            <p className='py-5 text-sm text-center '>
+                        Copyright 2026@ forever.com - All Rights Reserved.
+            </p>
+         </div>
+    </div>
   )
 }
 
