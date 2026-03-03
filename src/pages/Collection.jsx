@@ -26,6 +26,24 @@ const Collection = () => {
               </p>
              </div>
         </div>
+        {/* SubCategory Filter  */}
+        <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilters ? '' : "hidden"} sm:block`}>
+          <p className="mb-3 text-sm font-medium ">TYPE</p>
+             <div className="flex flex-col gap-2 font-light text-sm text-gray-700">
+              <p className="flex gap-2">
+                <input className='w-3' type="checkbox" value={'Men'} />
+                Men
+              </p>
+              <p className="flex gap-2">
+                <input className='w-3' type="checkbox" value={'Women'} />
+                Women
+              </p>
+              <p className="flex gap-2">
+                <input className='w-3' type="checkbox" value={'Kids'} />
+               Kids
+              </p>
+             </div>
+        </div>
        </div>
     </div>
   )
