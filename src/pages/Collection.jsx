@@ -3,13 +3,13 @@ import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/assets'
 const Collection = () => {
   const {products} = useContext(ShopContext)
-  const [showFilters, setShowFilters] = useState(false)
+  const [showFilters, setShowFilters] = useState(true)
   return (
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t'>
       {/* Filter Options  */}
        <div className="min-w-60">
         <p className='my-2 text-xl flex text-center cursor-pointer gap-2'>FILTERS
-              <img  className={`h-3 sm:hidden ${showFilters ? 'rotate-90 ' : '' }`} src={assets.dropdown_icon} alt="" />        
+              <img  className={`h-3 sm:hidden mt-2 ${showFilters ? 'rotate-90 ' : '' }`} src={assets.dropdown_icon} alt="" />        
         </p>
         {/* Category Filter */}
         <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilters ? '' : "hidden"} sm:block`}>
