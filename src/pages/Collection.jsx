@@ -61,6 +61,7 @@ const Collection = () => {
                 
             </select>
           </div>
+          {/* Map Products */}
        </div>
     </div>
   )
