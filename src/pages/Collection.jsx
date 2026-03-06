@@ -54,7 +54,12 @@ const Collection = () => {
           <div className='flex justify-between text-base sm:text-2xl mb-4'>
             <Title text1={'ALL'} text2={'COLLECTIONS'}/>
             {/* Product Sort */}
-            <select className='border-2 border-gray-300 text-sm px-2'></select>
+            <select className='border-2 border-gray-300 text-sm px-2'>
+                 <option value="relavent"></option>
+                 <option value="low-high"></option>
+                 <option value="high-low"></option>
+                
+            </select>
           </div>
        </div>
     </div>
