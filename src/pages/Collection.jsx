@@ -62,7 +62,7 @@ const Collection = () => {
             </select>
           </div>
           {/* Map Products */}
-          <div ></div>
+          <div className=''></div>
        </div>
     </div>
   )
