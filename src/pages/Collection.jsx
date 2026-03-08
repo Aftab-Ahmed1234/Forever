@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/assets'
 import Title from '../components/Title'
+import ProductItem from '../components/ProductItem'
 const Collection = () => {
   const {products} = useContext(ShopContext)
   const [showFilters, setShowFilters] = useState(true)
@@ -66,7 +67,14 @@ const Collection = () => {
             </select>
           </div>
           {/* Map Products */}
-          <div className='grid grid-cols md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6'></div>
+          <div className='grid grid-cols md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6'>
+            {
+              filterProducts.map((item,index)=>{
+                <ProductItem key={index} name={item.name} id={item._id}/>
+
+              })
+            }
+          </div>
        </div>
     </div>
   )
