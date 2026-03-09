@@ -7,7 +7,8 @@ const Collection = () => {
   const {products} = useContext(ShopContext)
   const [showFilters, setShowFilters] = useState(true)
   const [filterProducts, setFilterProducts] = useState([])
-  const [category, setCategory] = useState([])
+  const [category, setCategory] = useState([]);
+  const [subCategory, setSubCategory] = useState([]);
   useEffect(() => {   
     setFilterProducts(products)
   }, [products])
