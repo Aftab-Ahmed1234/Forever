@@ -17,6 +17,14 @@ const Collection = () => {
       setCategory(prev => [...prev, e.target.value]);
     } 
   };
+  const toggleSubCategory = (e) => {
+    if (subCategory.includes(e.target.value)) {
+      setSubCategory(prev => prev.filter( item => item !== e.target.value));
+    } 
+    else {
+      setSubCategory(prev => [...prev, e.target.value]);
+    }
+  };
 
   useEffect(() => {   
     setFilterProducts(products)
@@ -56,15 +64,15 @@ const Collection = () => {
           <p className="mb-3 text-sm font-medium ">TYPE</p>
              <div className="flex flex-col gap-2 font-light text-sm text-gray-700">
               <p className="flex gap-2">
-                <input className='w-3' type="checkbox" value={'Topwear'} /> Topwear 
+                <input className='w-3' type="checkbox" value={'Topwear'}  onChange={toggleSubCategory}/> Topwear 
                 Men
               </p>
               <p className="flex gap-2">
-                <input className='w-3' type="checkbox" value={'Bottomwear'} /> Bottomwaer
+                <input className='w-3' type="checkbox" value={'Bottomwear'} onChange={toggleSubCategory}/> Bottomwaer
                 Women
               </p>
               <p className="flex gap-2">
-                <input className='w-3' type="checkbox" value={'Winterwear'} />Winterwear
+                <input className='w-3' type="checkbox" value={'Winterwear'} onChange={toggleSubCategory}/>Winterwear
                Kids
               </p>
              </div>
