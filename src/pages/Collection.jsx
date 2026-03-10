@@ -30,7 +30,7 @@ const Collection = () => {
     setFilterProducts(products)
   }, [products])
  const applyFilter =() => {
-  
+  let productsCopy = products.slice();
  
 }
   return (
