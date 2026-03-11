@@ -39,6 +39,8 @@ const Collection = () => {
  setFilterProducts(productsCopy)
 }
 const sortProducts = (e) => {
+  let productsCopy = filterProducts.slice();
+  
 useEffect(() => { 
   applyFilter();
 }, [category, subCategory])
