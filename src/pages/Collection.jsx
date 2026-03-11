@@ -44,6 +44,10 @@ const sortProducts = (e) => {
   {
     productsCopy.sort((a,b) => a.price - b.price)
   }
+  else if(e.target.value === 'high-low')
+  {
+    productsCopy.sort((a,b) => b.price - a.price)
+  }
 
 useEffect(() => { 
   applyFilter();
