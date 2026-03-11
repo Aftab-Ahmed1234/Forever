@@ -27,9 +27,7 @@ const Collection = () => {
     }
   };
 
-  useEffect(() => {   
-    setFilterProducts(products)
-  }, [products])
+  
  const applyFilter =() => {
   let productsCopy = products.slice();
  if(category.length > 0){
