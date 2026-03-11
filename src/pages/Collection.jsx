@@ -39,14 +39,14 @@ const Collection = () => {
  setFilterProducts(productsCopy)
 }
 const sortProducts = (e) => {
-  let productsCopy = filterProducts.slice();
+  let fpCopy = filterProducts.slice();
   if(e.target.value === 'low-high')
   {
-    productsCopy.sort((a,b) => a.price - b.price)
+    fpCopy.sort((a,b) => a.price - b.price)
   }
   else if(e.target.value === 'high-low')
   {
-    productsCopy.sort((a,b) => b.price - a.price)
+    fpCopy.sort((a,b) => b.price - a.price)
   }
 
 useEffect(() => { 
