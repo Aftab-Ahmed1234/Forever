@@ -42,7 +42,7 @@ const sortProducts = (e) => {
   let fpCopy = filterProducts.slice();
   switch(sortType){ 
     case 'low-high': 
-    setFilterProducts
+    setFilterProducts(fpCopy.sort((a,b) => a.price - b.price));
 
 useEffect(() => { 
   applyFilter();
