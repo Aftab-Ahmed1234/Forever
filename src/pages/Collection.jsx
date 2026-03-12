@@ -48,7 +48,8 @@ const sortProducts = (e) => {
     setFilterProducts(fpCopy.sort((a,b) => b.price - a.price));
     break;
     default:
-    setFilterProducts(fpCopy.sort((a,b) => a._id - b._id));
+    applyFilter();
+    break;
   }
 
 useEffect(() => { 
