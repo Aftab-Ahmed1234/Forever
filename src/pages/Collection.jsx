@@ -47,8 +47,8 @@ const sortProducts = (e) => {
     case 'high-low':
     setFilterProducts(fpCopy.sort((a,b) => b.price - a.price));
     break;
-    
-  }
+    default:
+  
 
 useEffect(() => { 
   applyFilter();
