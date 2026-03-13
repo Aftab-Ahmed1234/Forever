@@ -52,7 +52,7 @@ const sortProducts = (e) => {
     applyFilter();
     break;
   }
-
+}
 useEffect(() => { 
   applyFilter();
 }, [category, subCategory])
@@ -130,5 +130,5 @@ useEffect(() => {
     </div>
   )
 }
-}
+
 export default Collection
