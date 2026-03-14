@@ -1,7 +1,8 @@
 import React from 'react'
+import { useContext } from 'react'
 
 const SearchBar = () => {
-    const {search,setSearch, showSearch,setshowSearch}
+    const {search,setSearch, showSearch,setshowSearch}=useContext
   return (
     <div>
       
