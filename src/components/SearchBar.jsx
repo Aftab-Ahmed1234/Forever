@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SearchBar = () => {
-    const
+    const[search,]
   return (
     <div>
       
