@@ -3,7 +3,7 @@ import { useContext } from 'react'
 
 const SearchBar = () => {
     const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
-  return (
+  return  showSearch ? (
     <div>
       
     </div>
