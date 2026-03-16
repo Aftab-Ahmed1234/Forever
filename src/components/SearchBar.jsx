@@ -5,7 +5,7 @@ const SearchBar = () => {
     const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
   return  showSearch ? (
     <div className='border-t border-b bg-gray-50 text-center'>
-      <div className='inline-flex item-center justify-center border'>
+      <div className='inline-flex item-center justify-center border border-gray-400'>
         
       </div>
       
