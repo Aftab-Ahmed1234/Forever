@@ -7,7 +7,7 @@ const SearchBar = () => {
     <div>
       
     </div>
-  ):null
+  ) : null
 }
 
 export default SearchBar
