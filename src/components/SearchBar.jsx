@@ -4,7 +4,7 @@ import { useContext } from 'react'
 const SearchBar = () => {
     const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
   return  showSearch ? (
-    <div>
+    <div className='border-t'>
       
     </div>
   ) : null
