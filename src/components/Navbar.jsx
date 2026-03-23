@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {assets} from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
+import { ShopContext } from '../context/ShopContext'
 const Navbar = () => {
   const [visible, setVisible] = React.useState(false)
+  const {setshowSearch}=useContext(ShopContext)
   return (
     <div className='flex item-center justify-between py-5 font-medium'>
       <Link to={'/'}><img className='w-36' src={assets.logo} alt=""  /></Link>
