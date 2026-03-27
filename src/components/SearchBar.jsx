@@ -8,7 +8,7 @@ const SearchBar = () => {
   const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
   const location= useLocation();
   
-  useEffect
+  useEffect()
 
   return  showSearch ? (
     <div className='border-t border-b bg-gray-50 text-center'>
