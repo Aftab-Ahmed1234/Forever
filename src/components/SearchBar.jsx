@@ -9,7 +9,7 @@ const SearchBar = () => {
   const location= useLocation();
   
   useEffect(()=>{
-
+    console.log
   },[location])
 
   return  showSearch ? (
