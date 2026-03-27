@@ -10,7 +10,7 @@ const SearchBar = () => {
   
   useEffect(()=>{
     console.log(location.pathname)
-     if(location)
+     if(location.pathname)
   },[location])
 
   return  showSearch ? (
