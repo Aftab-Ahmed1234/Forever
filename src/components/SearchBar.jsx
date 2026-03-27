@@ -10,7 +10,7 @@ const SearchBar = () => {
   
   useEffect(()=>{
 
-  },)
+  },[])
 
   return  showSearch ? (
     <div className='border-t border-b bg-gray-50 text-center'>
