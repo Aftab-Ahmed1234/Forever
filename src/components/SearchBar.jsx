@@ -11,7 +11,7 @@ const SearchBar = () => {
   useEffect(()=>{
     console.log(location.pathname)
      if(location.pathname.includes){
-       
+       location.pathname
      }
   },[location])
 
