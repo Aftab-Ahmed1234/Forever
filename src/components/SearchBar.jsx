@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { assets } from '../assets/assets';
 import { ShopContext } from '../context/ShopContext';
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const SearchBar = () => {
   const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
@@ -10,7 +11,7 @@ const SearchBar = () => {
   
   useEffect(()=>{
     console.log(location.pathname)
-     if(location.pathname.includes('collection').showSearch){
+     if(location.pathname.includes('collection') && showSearch){
        location.pathname
      }
   },[location])
