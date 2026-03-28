@@ -58,7 +58,7 @@ const sortProducts = (e) => {
 }
 useEffect(() => { 
   applyFilter();
-}, [category, subCategory])
+}, [category, subCategory, search, showSearch])
 useEffect(() => { 
   sortProducts();
 } , [sortType])
