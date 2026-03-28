@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 const SearchBar = () => {
   const {search,setSearch, showSearch,setshowSearch}=useContext(ShopContext);
-  const [visible]
+  const [visible, setVisible]
   const location= useLocation();
   
   useEffect(()=>{
