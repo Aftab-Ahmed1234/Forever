@@ -5,7 +5,7 @@ import Title from '../components/Title'
 import ProductItem from '../components/ProductItem'
 // import { i } from 'vite/dist/node/chunks/moduleRunnerTransport'
 const Collection = () => {
-  const {products} = useContext(ShopContext)
+  const {products, search,} = useContext(ShopContext)
   const [showFilters, setShowFilters] = useState(true)
   const [filterProducts, setFilterProducts] = useState([])
   const [category, setCategory] = useState([]);
