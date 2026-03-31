@@ -22,9 +22,9 @@ const Product = () => {
   },[productId])
   return  productData ? (
     <div className='border-t-2 pt-10 transition-opacity duration-500 opacity-100'>
-        <dir>
+        <div>
           
-        </dir>
+        </div>
     </div>
   ): <div className='opacity-0'></div>
 }
