@@ -12,7 +12,7 @@ const Product = () => {
        products.map((item)=>{
         if(item.id===productId){
           setProductData(item)
-          setImage(item.image)
+          setImage(item.image[0])
           return null;
       }
   })
