@@ -20,7 +20,7 @@ const Product = () => {
   useEffect(()=>{
     fetchProductData()
   },[productId])
-  return (
+  return  productData ? (
     <div>
       
     </div>
