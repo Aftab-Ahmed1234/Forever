@@ -1,6 +1,22 @@
-import React from 'react'
+import { useContext, useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { ShopContext } from '../context/ShopContext'
 
 const Product = () => {
+  const {productId}=useParams()
+  const [products]=useContext(ShopContext)
+  const[productData, setProductData]=useState(false)
+
+  const fetchProductData = async () => {
+       products.map((item)=>{
+        if(item.id===productId){
+          setProductData(item)
+      }
+  })
+  }
+  useEffect(()=>{
+    fetchProductData()
+  },[producId])
   return (
     <div>
       
