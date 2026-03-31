@@ -11,6 +11,7 @@ const Product = () => {
        products.map((item)=>{
         if(item.id===productId){
           setProductData(item)
+          console.log(item)
           return null;
       }
   })
