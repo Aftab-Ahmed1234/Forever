@@ -25,7 +25,7 @@ const Product = () => {
         {/* Product Data */}
         <div className='flex gap-12 sm:gap-12  flex-col sm:flex-row'>
           {/* Product Image*/}
-          <div>
+          <div className='flex flex-1'>
             
           </div>
 
