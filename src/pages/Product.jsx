@@ -26,7 +26,7 @@ const Product = () => {
         <div className='flex gap-12 sm:gap-12  flex-col sm:flex-row'>
           {/* Product Image*/}
           <div className='flex-1 fle flex-col-reverse gap-3 sm:flex-row'>
-            <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll w-full'>
+            <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll w-full sm:justify-none'>
 
             </div>
           </div>
