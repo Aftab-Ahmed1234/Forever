@@ -13,6 +13,7 @@ const Product = () => {
         if(item.id===productId){
           setProductData(item)
           setImage(item.image[0])
+          console.log(item)
           return null;
       }
   })
