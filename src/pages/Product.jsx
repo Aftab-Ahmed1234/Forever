@@ -30,7 +30,7 @@ const Product = () => {
             <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll w-full sm:justify-none sm:flex-col'>
                   {
                     productData.image.map((item,index)=>{
-                      <img src={} alt="" />
+                      <img src={item} alt="" />
                     })
                   }
             </div>
