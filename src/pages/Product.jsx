@@ -30,7 +30,7 @@ const Product = () => {
             <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll w-full sm:justify-none sm:flex-col'>
                   {
                     productData.image.map((item,index)=>{
-                      <img src={item} key={index} />
+                      <img src={item} key={index} className='w-[24%] sm:w-full' />
                     })
                   }
             </div>
