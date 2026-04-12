@@ -37,11 +37,13 @@ const Product = () => {
             className='w-16 sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer '/>
             ))
            }
-  </div>
-</div>
-</div>
-</div>
-  
+         </div>
+         <div>
+          
+         </div>
+       </div>
+      </div>
+    </div>
   ): <div className='opacity-0'></div>
 }
 
