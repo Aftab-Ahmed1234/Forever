@@ -43,7 +43,7 @@ const Product = () => {
          </div>
        </div>
         {/* ----------Product Info-------------- */}
-        <div className=''>
+        <div className='flex-1'>
 
         </div>
       </div>
