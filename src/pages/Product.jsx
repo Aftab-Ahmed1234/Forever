@@ -38,7 +38,7 @@ const Product = () => {
             ))
            }
          </div>
-         <div className=''>
+         <div className='w-full sm:[80%]'>
 
          </div>
        </div>
