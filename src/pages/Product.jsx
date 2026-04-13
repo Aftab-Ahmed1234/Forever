@@ -43,6 +43,9 @@ const Product = () => {
          </div>
        </div>
         {/* ----------Product Info-------------- */}
+        <div>
+          
+        </div>
       </div>
     </div>
   ): <div className='opacity-0'></div>
