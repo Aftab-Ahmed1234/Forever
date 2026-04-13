@@ -44,7 +44,7 @@ const Product = () => {
        </div>
         {/* ----------Product Info-------------- */}
         <div className='flex-1'>
-          <h1>productData.name</h1>
+          <h1>{productData.name}</h1>
         </div>
       </div>
     </div>
