@@ -43,8 +43,8 @@ const Product = () => {
          </div>
        </div>
         {/* ----------Product Info-------------- */}
-        <div>
-          
+        <div className=''>
+
         </div>
       </div>
     </div>
