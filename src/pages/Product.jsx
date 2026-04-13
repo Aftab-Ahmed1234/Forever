@@ -38,8 +38,8 @@ const Product = () => {
             ))
            }
          </div>
-         <div>
-          
+         <div className=''>
+
          </div>
        </div>
       </div>
