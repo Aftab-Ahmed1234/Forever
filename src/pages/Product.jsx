@@ -45,7 +45,7 @@ const Product = () => {
         {/* ----------Product Info-------------- */}
         <div className='flex-1'>
           <h1  className='font-medium  text-2xl  mt-2'>{productData.name}</h1>
-          <div className='flex item-center '></div>
+          <div className='flex item-center gap-1 mt-2'></div>
         </div>
       </div>
     </div>
