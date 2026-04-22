@@ -52,7 +52,7 @@ const Product = () => {
             <img src={assets.star_icon} alt="" className="w-3.5" />
             <img src={assets.star_icon} alt="" className="w-3.5" />
             <img src={assets.star_dull_icon} alt="" className="w-3.5" />
-            
+            <p></p>
           </div>
         </div>
       </div>
