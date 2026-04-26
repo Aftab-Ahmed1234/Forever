@@ -40,21 +40,21 @@ const Product = () => {
            }
          </div>
          <div className='w-full sm:[80%]'>
-          <img className='w-full' src={image} alt="" /> 
+          <img className='w-[80%]' src={image} alt="" /> 
          </div>
        </div>
         {/* ----------Product Info-------------- */}
         <div className='flex-1'>
           <h1  className='font-medium  text-2xl  mt-2'>{productData.name}</h1>
           <div className='flex item-center gap-1 mt-2'>
-            <img src={assets.star_icon} alt="" className="w-3.5" />
-            <img src={assets.star_icon} alt="" className="w-3.5" />
-            <img src={assets.star_icon} alt="" className="w-3.5" />
-            <img src={assets.star_icon} alt="" className="w-3.5" />
-            <img src={assets.star_dull_icon} alt="" className="w-3.5" />
+            <img src={assets.star_icon} alt="" className="w-4" />
+            <img src={assets.star_icon} alt="" className="w-4" />
+            <img src={assets.star_icon} alt="" className="w-4" />
+            <img src={assets.star_icon} alt="" className="w-4" />
+            <img src={assets.star_dull_icon} alt="" className="w-4" />
             <p className='ol-2'>(122)</p>
           </div>
-          <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
+          <p className='mt-5 text-xl font-medium'>{currency}{productData.price}</p>
         </div>
       </div>
     </div>
