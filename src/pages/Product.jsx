@@ -55,7 +55,7 @@ const Product = () => {
             <p className='ol-2'>(122)</p>
           </div>
           <p className='mt-5 text-xl font-medium'>{currency}{productData.price}</p>
-          <p>{productData.description}</p>
+          <p className=''>{productData.description}</p>
         </div>
       </div>
     </div>
