@@ -58,8 +58,8 @@ const Product = () => {
           <p className='mt-5 text-gray-500 md: w-4/5'>{productData.description}</p>
           <div className='flex flex-col gap-4 my-8'>
             <p>Select Size</p>
-            <div>
-              
+            <div className=''>
+
             </div>
           </div>
         </div>
