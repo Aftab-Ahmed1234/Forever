@@ -9,6 +9,7 @@ const Product = () => {
   const {products, currency}=useContext(ShopContext)
   const[productData, setProductData]=useState(false)
   const[image, setImage]=useState('')
+  const[size, setSize]=useState('')
   const fetchProductData = async () => {
        products.map((item)=>{
         if(item._id===productId){
@@ -60,7 +61,7 @@ const Product = () => {
             <p>Select Size</p>
             <div className='flex gap-2 '>
               {productData.sizes.map((item, index)=>(
-                <button className='cursor-pointer' key={index}>{item}</button>
+                <button className={`border py-2 px-4 bg-gray-100 cursor-pointer`} key={index}>{item}</button>
               ))}
             </div>
           </div>
