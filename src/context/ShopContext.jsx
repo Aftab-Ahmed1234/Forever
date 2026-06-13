@@ -3,7 +3,7 @@ import { products } from "../assets/assets";
 import { useState } from "react";
 export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
-    const currency='$';
+    const currency='PKR ';
     const delivery_fee=10;
     const[search,setSearch]=useState('');
     const[showSearch,setshowSearch]=useState(false)
